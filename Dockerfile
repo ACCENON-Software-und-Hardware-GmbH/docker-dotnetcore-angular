@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1.301-alpine
 
 RUN apk update && apk add --update --no-cache nodejs-current nodejs-npm python make g++ \
 && npm install -g npm \
